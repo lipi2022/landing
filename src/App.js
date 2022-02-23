@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import google_sign from "./google_sign.png";
 import heroshot from "./heroshot.png";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
@@ -9,6 +10,10 @@ function App() {
       id="landing-main"
       className="container  mx-auto box-border overflow-x-hidden"
     >
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>excerpt</title>
+      </Helmet>
       <div id="landing-header" className="flex p-4">
         <div
           to="/"
