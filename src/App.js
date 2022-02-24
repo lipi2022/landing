@@ -38,7 +38,9 @@ function App() {
           Organiz your notes and pictures in a way where people can find them
         </div>
         <button className="rounded-md mb-4 w-36 h-10 text-teal-50">
-          <img src={google_sign} alt="google sign"></img>
+          <a href="https://excerpt.space/login">
+            <img src={google_sign} alt="google sign"></img>
+          </a>
         </button>
         <img className="pt-6" src={heroshot} alt="hero shot"></img>
       </div>
